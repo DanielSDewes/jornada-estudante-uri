@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+# Jornada do Estudante – URI  
+Uma apresentação interativa da jornada do estudante ingressante na Universidade Regional Integrada do Alto Uruguai e das Missões (URI) — acompanhando o perfil do estudante “Daniel, 18 anos”.
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/ca0704a2-cbc8-47a9-a82d-02a01b4f8b48
+## 🧭 Propósito do Site  
+Este site foi criado com o objetivo de ilustrar e documentar a experiência de entrada de um estudante na URI — desde o momento de descoberta da universidade até o engajamento no início das aulas.  
+Ele serve para:  
+- Visualizar cada etapa da jornada (emoções, ações, pontos de contato e oportunidades de melhoria) de forma clara e acessível.  
+- Apoiar a equipe de marketing, comunicação ou onboarding da universidade a entender e melhorar o processo de acolhimento.  
+- Servir como case de estudo ou material de inspiração para universidades, agências de comunicação ou equipes UX envolvidas em experiências de estudante.  
+- Demonstrar habilidades de front‑end e design de experiência, mostrando como construir uma narrativa visual de jornada do usuário.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🛠 Tecnologias Utilizadas  
+Este projeto foi desenvolvido com as seguintes tecnologias:  
+- **Vite** – Build tool rápida para ambiente de desenvolvimento front‑end e bundling.  
+- **TypeScript** – Superset de JavaScript com tipagem estática para maior robustez do código.  
+- **React** – Biblioteca para construir a interface de usuário de forma reativa e componentizada.  
+- **Tailwind CSS** – Framework de utilitários CSS para estilização rápida e consistente.  
+- **shadcn‑ui** – Conjunto de componentes pré‑construídos (baseado em Tailwind/Headless UI) para acelerar o desenvolvimento da interface.  
+- **ESLint / Prettier** – Ferramentas de linting e formatação para manter a qualidade e consistência do código.  
+- **Vite.config.ts / tsconfig.json / postcss.config.js** – Arquivos de configuração padrão para integrar as tecnologias acima.  
+- (Opcional) Hospedagem estática — o site pode ser publicado em plataformas como Netlify, Vercel ou GitHub Pages.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ca0704a2-cbc8-47a9-a82d-02a01b4f8b48) and start prompting.
+## 🚀 Como Rodar o Projeto Localmente  
+Para começar a desenvolver ou visualizar localmente, siga os passos abaixo:
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+# Clonar o repositório  
+git clone https://github.com/DanielSDewes/jornada-estudante-uri.git  
+cd jornada-estudante-uri
 
-**Use your preferred IDE**
+# Instalar dependências  
+npm install  
+# — ou, se estiver usando yarn  
+# yarn install
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Rodar em ambiente de desenvolvimento  
+npm run dev  
+# Acesse: http://localhost:5173 (ou porta indicada no terminal)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Build para produção  
+npm run build  
+# O output estará em /dist (ou conforme configuração)
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Preview local da versão de produção  
+npm run preview  
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🎨 Estrutura do Projeto  
+- `src/` – Pasta principal com componentes React, estilos e imagens.  
+- `index.html` – Página de entrada que carrega a aplicação.  
+- `tailwind.config.ts` – Configuração personalizada do Tailwind.  
+- `tsconfig.json` & `tsconfig.app.json` – Configurações de TypeScript.  
+- `vite.config.ts` – Configurações específicas do Vite.  
+- Outras pastas (por exemplo `public/` ou `assets/`) podem armazenar imagens, ícones e fontes.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📋 Funcionalidades & Layout  
+- Seção de **Hero** com imagem de capa e chamada para ação (“Iniciar Jornada”).  
+- Apresentação da persona “Daniel” e seu contexto.  
+- Mapa da jornada em 6 estágios com emoções, ações, pontos de contato e imagens ilustrativas.  
+- Tabela ou cards resumindo a jornada de forma interativa/responsiva.  
+- Seção de conclusão com chamado à ação para ingressar na URI.  
+- Design responsivo, acessível, com animações suaves (fade‑in, scroll) e ícones representando emoções.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📄 Licença  
+Este projeto está licenciado sob a **MIT License** — sinta‑se à vontade para utilizar, modificar ou aprimorar conforme suas necessidades.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 👤 Autor  
+- **Daniel S. Dewes** — [GitHub profile](https://github.com/DanielSDewes)  
+- Projeto desenvolvido como iniciativa pessoal / projeto de portfólio.
 
-Simply open [Lovable](https://lovable.dev/projects/ca0704a2-cbc8-47a9-a82d-02a01b4f8b48) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+_Meta: README criado para orientar outras pessoas que acessem este repositório, entenderem o propósito e a tecnologia utilizada no site da jornada do estudante._  
